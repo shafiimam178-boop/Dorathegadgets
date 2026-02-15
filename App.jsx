@@ -163,27 +163,4 @@ export default function Footer() {
     </footer>
   );
 }
-// App.jsx
-import HeroIntro from "./components/HeroIntro";
-import GadgetGrid from "./components/GadgetGrid";
-import MysteryBox from "./components/MysteryBox";
-import ReviewsCarousel from "./components/ReviewsCarousel";
-import FloatingDock from "./components/FloatingDock";
-import DoraHelper from "./components/DoraHelper";
-import Footer from "./components/Footer";
 
-function App() {
-  return (
-    <div className="bg-royalGradient font-body text-white">
-      <HeroIntro />
-      <GadgetGrid />
-      <MysteryBox />
-      <ReviewsCarousel />
-      <Footer />
-      <FloatingDock />
-      <DoraHelper />
-    </div>
-  );
-}
-
-export default App;
